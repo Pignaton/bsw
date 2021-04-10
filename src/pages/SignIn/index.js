@@ -25,7 +25,8 @@ const Page = () => {
             doLogin(json.token, rememberPassword);
             window.location = '/';
         }
-
+        
+        setDisable(true);
     }
 
     return (
