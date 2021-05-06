@@ -74,7 +74,7 @@ const Page = () => {
                     </div>
                <Link to="/ads" className="seeAllLink">Ver todos</Link>
                <hr/>
-               ....
+              teste teste teste
             </PageArea>
         </PageContainer>
     </>

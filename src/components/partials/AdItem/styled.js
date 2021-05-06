@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Item = styled.div `
     a {
-        display:black;
+        display:block;
         border:1px solid #FFF;
         margin:10px;
         text-decoration:none;
@@ -11,9 +11,9 @@ export const Item = styled.div `
         color:#000;
         background-color:#FFF;
         transition:all ease .2s;
-   
 
     &:hover {
+        background-color:#EEE;
         border:1px solid #CCC;
     }
 
